@@ -1,5 +1,5 @@
 const { Router } = require('express');
-const userModel = require('../models/userModel');
+const userModel = require('../../../src/models/userModel');
 const bcrypt = require('bcrypt'); // Librería para cifrar contraseñas
 const jwt = require('jsonwebtoken'); // Librería para manejar tokens
 const router = Router();
