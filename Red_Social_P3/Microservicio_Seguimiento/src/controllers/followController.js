@@ -1,4 +1,4 @@
-const followModel = require('../models/followModel');
+const followModel = require('..//models/followModel');
 
 const createFollow = async (req, res) => {
   const { usuarioP, usuarioS } = req.body;

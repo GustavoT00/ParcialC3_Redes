@@ -1,6 +1,6 @@
 const express = require('express');
 const morgan = require('morgan');
-const messageRoutes = require('./src/routes/messageRoutes');
+const messageRoutes = require('./routes/messageRoutes');
 
 const app = express();
 app.use(morgan('dev'));
